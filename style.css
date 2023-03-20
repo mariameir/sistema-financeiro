@@ -7,7 +7,6 @@
 }
 
 body{
-<<<<<<< HEAD
     height: 100vh;
     display:flex;
     justify-content: center;
@@ -124,7 +123,3 @@ main{
     width: 80px;
     text-align: center;
   }
-=======
-    background-color: rgb(255, 255, 255);
-}
->>>>>>> 6dfa89f66be4c2380441d978189ab06e987f0a8d

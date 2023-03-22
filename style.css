@@ -1,146 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: bold;
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Thasadith', sans-serif;
-    font-size: 22px;
-    font-weight: bold;
-    
 }
 
-body{
-    height: 100vh;
-    display:flex;
-    justify-content: center;
-    background-image: linear-gradient(
-  25deg,
-  hsl(240deg 89% 33%) 0%,
-  hsl(267deg 56% 38%) 9%,
-  hsl(290deg 31% 42%) 17%,
-  hsl(335deg 22% 51%) 25%,
-  hsl(18deg 35% 58%) 33%,
-  hsl(38deg 56% 60%) 40%,
-  hsl(48deg 79% 59%) 47%,
-  hsl(55deg 100% 50%) 54%,
-  hsl(50deg 77% 57%) 61%,
-  hsl(44deg 55% 57%) 67%,
-  hsl(33deg 35% 55%) 74%,
-  hsl(5deg 17% 52%) 80%,
-  hsl(304deg 17% 41%) 87%,
-  hsl(265deg 36% 37%) 93%,
-  hsl(239deg 58% 34%) 100%
-);
-  }
-
-main{
-    max-width: 550px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: url(img/bg.jpg);
+  background-size: cover;
+  color: #ffffff;
+  font-size: 22px;
 }
 
-.resume{
-    display: flex;
-    padding: 10px 0;
-    gap: 40px;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
+main {
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000ad;
 }
 
 .resume {
-    display: flex;
-    padding: 10px 0;
-    gap: 40px;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .resume > div {
-    display: flex;
-    flex-direction: column;
-    border: solid 0.5px gray;
-    border-radius: 10px;
-    padding: 10px;
-    width: 150px;
-  }
-  
-  .newItem {
-    display: flex;
-    gap: 10px;
-    align-items: end;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .divDesc, .divType, .divAmount {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .newItem > button {
-    background-color: #2C73D2;
-    color: white;
-    border: none;
-    padding: 0 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    height: 34px;
-  }
-  
-  input, select {
-    padding: 5px;
-  }
-  
-  .divTable {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  table {
-    width: 98%;
-    padding: 20px 0;
-    border-radius: 5px;
-  }
-  
-  th {
-    text-align: start;
-    border-bottom: inset;
-    padding-bottom: 5px;
-  }
-  
-  i {
-    font-size: 25px;
-  }
-  
-  .bxs-chevron-up-circle {
-    color: #00C9A7;
-  }
-  
-  .bxs-chevron-down-circle {
-    color: #D83121;
-  }
-  
-  .columnAction {
-    width: 40px;
-    text-align: center;
-  }
-  
-  .columnAction > button {
-    background: transparent;
-    border: none;
-  }
-  
-  .columnAmount {
-    width: 30%;
-  }
-  
-  .columnType {
-    width: 80px;
-    text-align: center;
-  }
+  display: flex;
+  padding: 10px 0;
+  gap: 40px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resume>div {
+  display: flex;
+  flex-direction: column;
+  border: solid 0.5px gray;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  background-color: #00000085;
+}
+
+.newItem {
+  display: flex;
+  gap: 10px;
+  align-items: end;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.divDesc,
+.divType,
+.divAmount {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.newItem>button {
+  background-color: #2C73D2;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+  height: 34px;
+
+}
+
+input,
+select {
+  padding: 5px;
+  border: solid 0.5px gray;
+  background-color: #ececf4;
+
+}
+
+.divTable {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 98%;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+th {
+  text-align: start;
+  border-bottom: inset;
+  padding-bottom: 5px;
+}
+
+i {
+  font-size: 25px;
+}
+
+.bxs-chevron-up-circle {
+  color: #27a30e;
+}
+
+.bxs-chevron-down-circle {
+  color: #d30a0a;
+}
+
+.columnAction {
+  width: 40px;
+  text-align: center;
+}
+
+.columnAction>button {
+  background: transparent;
+  border: none;
+  color: #e4dedeed;
+}
+
+.columnAmount {
+  width: 30%;
+}
+
+.columnType {
+  width: 80px;
+  text-align: center;
+}
+
+.incomes {
+  color: #27a30e;
+}
+
+.expenses {
+  color: #d30a0a;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+
+}
+
+input,
+select {
+  background-color: #3d3c3c;
+  color: aliceblue;
+}
+
+th {
+  background-color: #000000b0;
+}
+
+#footer{
+font-size: 16px;
+position:fixed;
+bottom: 35px;
+width: 400px;
+text-align: center;
+}
+.github{
+font-size: 16px;
+position:fixed;
+bottom: 7px;
+text-align: center;
+display: flex;
+
+}
+
+img{
+  background-color: #ffffff;
+  border-radius: 55%;
+  margin-right: 7px;
+}

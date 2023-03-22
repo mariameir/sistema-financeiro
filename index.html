@@ -2,21 +2,22 @@
 <html lang="pt-Br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Sistema de controle finaceiro</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Thasadith:wght@400;700&display=swap');
-    </style>
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sistema de controle finaceiro</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Thasadith:wght@400;700&display=swap');
+  </style>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <main>
+
+  <main>
     <div class="resume">
-      <div>
+      <div class="box">
         Entradas: R$
         <span class="incomes">0.00</span>
       </div>
@@ -31,15 +32,15 @@
     </div>
     <div class="newItem">
       <div class="divDesc">
-        <label for="desc">Descrição</label>
+        <label for="desc">Descrição:</label>
         <input type="text" id="desc" />
       </div>
       <div class="divAmount">
-        <label for="amount">Valor</label>
+        <label for="amount">Valor:</label>
         <input type="number" id="amount" />
       </div>
       <div class="divType">
-        <label for="type">Tipo</label>
+        <label for="type">Tipo:</label>
         <select id="type">
           <option>Entrada</option>
           <option>Saída</option>
@@ -59,9 +60,19 @@
         </thead>
         <tbody>
         </tbody>
+        <div id="footer">
+          <a href="#"><a href="mailto:pigyarx@gmail.com">📬 Email: pigyarx@gmail.com</a>
+        </div>
+       
+  
+          <div class="github">
+            <img src="img/github-icon.png" alt="">
+            <p>github.com/mariameir</p>
+          </div>
+
       </table>
   </main>  
-    <script src="script.js"></script>
+      <script src="script.js"></script>
 </body>
 
 </html>

@@ -20,15 +20,16 @@ O sistema usa a propriedade  `localStorage`, que permite acessar um objeto `Stor
 <img width="720" alt="5" src="https://user-images.githubusercontent.com/52001215/227030924-682394dd-16a1-431b-ba6c-0ffc4057efd9.png">
 
 ## Status do projeto: ✅ Finalizado
-<br>
-
+ <a href="https://mariameir.github.io/sistema-financeiro/">
+ 🔗 Veja o projeto 🔗
+ </a>
 <h3>Desenvolvido por:</h3>
 
 <table>
   <tr>
     <td align="center">
       <a href="https://github.com/mariameir">
-        <img src="https://avatars.githubusercontent.com/u/52001215?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/52001215?v=4" width="100px;" alt="Foto de perfil do github"/><br>
         <sub>
           <b>Maria Meir</b>
         </sub>
